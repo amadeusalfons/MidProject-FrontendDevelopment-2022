@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+}
+
+.testimonial-item p {
+    align-self: center;
+    font-size: 1.5em;
+}
+
+.testimonial-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.testimonials {
+    padding: 20px;
+}
+.testimonials h1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+.course h1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+.text-lg{
+    font-size: 15px;
+    text-align: justify;
+}
+.submit-btn{
+    background-color: #2A66FD;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+}
+.course-btn{
+    margin-top: auto;
+    padding-top: 10px;
+}
+.carousel{
+    width: 60vw;
+    align-items: center;
+    padding: 20px;
+}
+.carousel h1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+}
